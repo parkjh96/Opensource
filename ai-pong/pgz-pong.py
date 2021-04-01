@@ -136,7 +136,7 @@ def on_mouse_move(pos):
     mousex, mousey = pos
     paddle1.y = mousey
 
-def draw():
+def draw(): #muyaho
     drawArena()
     drawPaddle(paddle1)
     drawPaddle(paddle2)
